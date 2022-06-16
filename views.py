@@ -16,8 +16,8 @@ def hora():
     return str(datetime.now())
 
 @app.route('/soma')
-def sum():
-	return 2+2
+def sum(a,b):
+	return a+b
 
 app.run()
 
